@@ -1,0 +1,542 @@
+<VRTDataset rasterXSize="33600" rasterYSize="4800">
+  <SRS>PROJCS["unnamed",GEOGCS["unnamed ellipse",DATUM["unknown",SPHEROID["unnamed",6371007.181,0]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]],PROJECTION["Sinusoidal"],PARAMETER["longitude_of_center",0],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]</SRS>
+  <GeoTransform> -7.7836536376670003e+06,  4.6331271652780293e+02,  0.0000000000000000e+00,  1.0007554676999999e+07,  0.0000000000000000e+00, -4.6331271652765133e+02</GeoTransform>
+  <VRTRasterBand dataType="Int16" band="1">
+    <NoDataValue>-28672</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h24v01.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="31200" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h12v01.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="2400" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h20v00.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="21600" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h16v01.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="12000" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h16v00.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="12000" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h20v01.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="21600" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h14v01.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="7200" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h18v01.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="16800" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h18v00.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="16800" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h22v01.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="26400" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h14v00.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="7200" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h11v01.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="0" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h13v01.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="4800" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h21v01.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="24000" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h17v00.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="14400" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h17v01.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="14400" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h21v00.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="24000" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h19v00.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="19200" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h15v00.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="9600" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h23v01.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="28800" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h15v01.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="9600" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h19v01.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="19200" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="2">
+    <NoDataValue>-28672</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h24v01.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="31200" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h12v01.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="2400" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h20v00.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="21600" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h16v01.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="12000" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h16v00.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="12000" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h20v01.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="21600" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h14v01.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="7200" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h18v01.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="16800" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h18v00.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="16800" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h22v01.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="26400" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h14v00.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="7200" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h11v01.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="0" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h13v01.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="4800" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h21v01.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="24000" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h17v00.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="14400" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h17v01.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="14400" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h21v00.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="24000" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h19v00.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="19200" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h15v00.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="9600" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h23v01.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="28800" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h15v01.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="9600" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h19v01.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="19200" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Int16" band="3">
+    <NoDataValue>-28672</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h24v01.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="31200" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h12v01.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="2400" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h20v00.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="21600" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h16v01.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="12000" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h16v00.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="12000" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h20v01.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="21600" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h14v01.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="7200" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h18v01.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="16800" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h18v00.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="16800" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h22v01.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="26400" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h14v00.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="7200" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h11v01.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="0" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h13v01.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="4800" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h21v01.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="24000" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h17v00.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="14400" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h17v01.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="14400" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h21v00.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="24000" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h19v00.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="19200" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h15v00.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="9600" yOff="0" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h23v01.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="28800" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h15v01.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="9600" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">./data/stacked_h19v01.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="2400" RasterYSize="2400" DataType="Int16" BlockXSize="2400" BlockYSize="1" />
+      <SrcRect xOff="0" yOff="0" xSize="2400" ySize="2400" />
+      <DstRect xOff="19200" yOff="2400" xSize="2400" ySize="2400" />
+      <NODATA>-28672</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
